@@ -18,7 +18,7 @@ var now=  new Date().getTime()
 
 let secondss= Math.abs(countDownDate - now);
 
-console.log("Expires in "+Math.floor(secondss/1000)+" seconds");
+// console.log("Expires in "+Math.floor(secondss/1000)+" seconds");
 
 function getFirstDayOfNextMonth() {
     const date = new Date();

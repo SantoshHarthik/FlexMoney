@@ -6,7 +6,7 @@ const ContactUs = () => {
   const [text, settext] = useState()
   const submitcomment = (e) => {
     window.alert('Submitted!!!')
-    console.log('clicked');
+    // console.log('clicked');
     e.preventDefault()
     settext('')
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });

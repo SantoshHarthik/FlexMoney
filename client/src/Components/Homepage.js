@@ -15,7 +15,7 @@ const steps = [
 const Homepage = () => {
   return (
     <div id='hpid'>
-      <div class="container111">
+      <div className="container111">
         <Typical wrapper="span" steps={steps} loop={1} className={'caca'} />
       </div>
       </div>
