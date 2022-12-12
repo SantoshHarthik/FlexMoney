@@ -36,7 +36,7 @@ const Add = () => {
 
 
     const axiosrequest = async () => {
-        await axios.post('http://localhost:8000/add', {
+        await axios.post('https://yogasitebe.onrender.com/add', {
             name: String(inputs.name),
             age: Number(inputs.age),
             batch: String(inputs.batch),
@@ -75,7 +75,7 @@ const Add = () => {
         e.preventDefault()
         setdis1(true)
         // console.log(inputs);
-        axiosrequest().then(() => history('/'))
+        axiosrequest().then(() => history('https://yogasitebe.onrender.com/'))
         window.alert('Submitted!!!')
 
         setdisable(true)
