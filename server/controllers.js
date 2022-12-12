@@ -14,7 +14,7 @@ exports.add= async(req,res)=>{
         res.send('data sent')
         // console.log(data);
     } catch (error) {
-        console.log(error);
+        res.send(error);
     }
 }
 
@@ -34,11 +34,6 @@ exports.getone= async(req,res)=>{
         res.send(data);
         // console.log(data); 
     } catch (error) {
-        console.log(error);
+        res.send(error);
     }
 }
-
-
-
-
-  
