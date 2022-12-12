@@ -76,8 +76,8 @@ const Add = () => {
         setdis1(true)
         // console.log(inputs);
         axiosrequest().then(() => history('https://yogasitebe.onrender.com/'))
-        window.alert('Submitted!!!')
-
+        window.alert('Thanks for Joining!')
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         setdisable(true)
         setTimeout(() => {
             setdisable(false)
